@@ -87,15 +87,15 @@
 
 project/
 ├── Project_3_Research.ipynb   # Jupyter notebook с анализом
-├── images/                    # Папка с сохраненными визуализациями
-│   ├── correlation_matrix.png         # Корреляционная матрица
-│   ├── customer_correlation_matrix.png # Корреляции клиентских метрик
-│   ├── price_quantity_distribution.png # Распределение цен и количества
-│   ├── days_without_sales.png         # Анализ дней без продаж
-│   ├── orders_by_hour.png            # Почасовая активность
-│   └── orders_by_weekday.png         # Активность по дням недели
-├── requirements.txt           # Зависимости проекта
-└── README.md                 # Документация проекта
+├── images/   # Папка с сохраненными визуализациями
+│ ├── correlation_matrix.png   # Корреляционная матрица
+│ ├── customer_correlation_matrix.png   # Корреляции клиентских метрик
+│ ├── price_quantity_distribution.png   # Распределение цен и количества
+│ ├── days_without_sales.png   # Анализ дней без продаж
+│ ├── orders_by_hour.png   # Почасовая активность
+│ └── orders_by_weekday.png   # Активность по дням недели
+├── requirements.txt   # Зависимости проекта
+└── README.md   # Документация проекта
 
 ## Как использовать проект
 1. Клонировать репозиторий

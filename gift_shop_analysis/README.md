@@ -71,6 +71,32 @@
 ![Заказы по дням недели](visualizations/orders_by_weekday.png)
 *Распределение заказов по дням недели*
 
+### Сравнительный анализ
+![Сравнение метрик](visualizations/comparison_metrics.png)
+*Сравнение ключевых бизнес-показателей*
+
+### Профили клиентов
+![Распределение профилей](visualizations/customer_profiles_distribution.png)
+*Анализ распределения клиентских профилей*
+
+### Месячная динамика
+![Месячная статистика](visualizations/monthly_stats.png)
+*Анализ месячных показателей продаж*
+
+### RFM-сегментация
+![RFM метрики](visualizations/rfm_metrics_distribution.png)
+*Распределение RFM метрик по клиентам*
+
+![RFM сегменты](visualizations/rfm_segments.png)
+*Результаты RFM сегментации клиентов*
+
+### Анализ удержания
+![Фактор удержания](visualizations/sticky_factor.png)
+*Анализ фактора удержания клиентов*
+
+![Сравнение удержания](visualizations/sticky_factor_comparison.png)
+*Сравнительный анализ показателей удержания*
+
 ## Структура данных
 Проект работает с двумя основными датасетами:
 
@@ -95,12 +121,19 @@ gift_shop_analysis/
 ├── requirements.txt                       # Зависимости проекта
 │
 └── visualizations/                        # Визуализации проекта
+    ├── comparison_metrics.png             # Сравнение ключевых метрик
     ├── correlation_matrix.png             # Корреляционная матрица
     ├── customer_correlation_matrix.png    # Корреляции клиентских метрик
-    ├── price_quantity_distribution.png    # Распределение цен и количества
+    ├── customer_profiles_distribution.png # Распределение профилей клиентов
     ├── days_without_sales.png            # Анализ дней без продаж
+    ├── monthly_stats.png                 # Месячная статистика продаж
     ├── orders_by_hour.png                # Почасовая активность
-    └── orders_by_weekday.png             # Активность по дням недели
+    ├── orders_by_weekday.png             # Активность по дням недели
+    ├── price_quantity_distribution.png    # Распределение цен и количества
+    ├── rfm_metrics_distribution.png      # Распределение RFM метрик
+    ├── rfm_segments.png                  # Сегменты RFM анализа
+    ├── sticky_factor.png                 # Фактор удержания клиентов
+    └── sticky_factor_comparison.png      # Сравнение факторов удержания
 </pre>
 
 ## Как использовать проект

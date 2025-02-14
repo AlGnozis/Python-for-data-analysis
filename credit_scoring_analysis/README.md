@@ -106,6 +106,23 @@ credit_scoring_analysis/
     ├── children_hypothesis.png            # Анализ влияния наличия детей
     └── men_income_hypothesis.png          # Исследование дохода и пола
 
+<pre>
+credit_scoring_analysis/
+│
+├── Project_2_credit_scoring.ipynb          # Анализ кредитных рисков
+│
+├── README.md                               # Документация проекта
+│
+├── requirements.txt                        # Зависимости проекта
+│
+└── visualizations/                         # Визуализации проекта
+    ├── income_debt_ratio.png              # Анализ влияния дохода на возврат кредита
+    ├── education_debt_ratio.png           # Зависимость возврата от образования
+    ├── age_debt_ratio.png                 # Распределение должников по возрасту
+    ├── children_hypothesis.png            # Анализ влияния наличия детей
+    └── men_income_hypothesis.png          # Исследование дохода и пола
+</pre>
+
 *Примечание: Исходные данные (credit_scoring_eng.csv) не включены в репозиторий в целях конфиденциальности.*
 
 ## Disclaimer

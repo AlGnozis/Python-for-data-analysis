@@ -56,6 +56,9 @@
 ![Доход и возврат](visualizations/income_debt_ratio.png)
 *Зависимость возврата кредита от уровня дохода*
 
+![Распределение дохода](visualizations/income_distribution.png)
+*Анализ распределения доходов заемщиков*
+
 ### Образование и кредитный риск
 ![Образование](visualizations/education_debt_ratio.png)
 *Влияние образования на возврат кредита*
@@ -64,12 +67,13 @@
 ![Возраст](visualizations/age_debt_ratio.png)
 *Распределение должников по возрастным группам*
 
-### Проверка гипотез
-![Гипотеза о детях](visualizations/children_hypothesis.png)
+### Анализ семейного положения
+![Дети](visualizations/children_debt_ratio.png)
 *Влияние количества детей на возврат кредита*
 
-![Гипотеза о доходе](visualizations/men_income_hypothesis.png)
-*Сравнение возврата кредитов по уровню дохода*
+### Гендерный анализ
+![Доход и пол](visualizations/men_income_hypothesis.png)
+*Анализ влияния пола и дохода на возврат кредита*
 
 ## Структура данных
 Проект использует датасет `credit_scoring_eng.csv` со следующими характеристиками:
@@ -102,9 +106,10 @@ credit_scoring_analysis/
 │
 └── visualizations/                         # Визуализации проекта
     ├── income_debt_ratio.png              # Анализ влияния дохода на возврат кредита
+    ├── income_distribution.png            # Распределение доходов заемщиков
     ├── education_debt_ratio.png           # Зависимость возврата от образования
     ├── age_debt_ratio.png                 # Распределение должников по возрасту
-    ├── children_hypothesis.png            # Анализ влияния наличия детей
+    ├── children_debt_ratio.png            # Влияние количества детей на возврат
     └── men_income_hypothesis.png          # Исследование дохода и пола
 </pre>
 
